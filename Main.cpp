@@ -14,6 +14,7 @@ int main()
 	std::cout << "(2) for subtraction." << "\n";
 	std::cout << "(3) for multiplying." << "\n";
 	std::cout << "(4) for dividing." << "\n";
+	std::cout << "(5) for power of a given number." << "\n";
 	std::cout << "Number: " << "\n";
 	std::cin >> sign;
 
@@ -32,6 +33,10 @@ int main()
 	else if (sign == 4)
 	{
 		std::cout << "\n" << "Result: " << dividing(x, y) << "\n";
+	}
+	else if (sign == 5)
+	{
+		std::cout << "\n" << "Result: " << power_numbers(x, y) << "\n";
 	}
 	else
 		std::cout << "Invalid number";

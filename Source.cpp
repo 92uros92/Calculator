@@ -21,3 +21,8 @@ double dividing(double a, double b)
 {
 	return a / b;
 }
+
+double power_numbers(double a, double b)
+{
+	return pow(a, b);
+}
