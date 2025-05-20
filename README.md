@@ -1,4 +1,4 @@
-#Calculator
-________________________________________________________
+# Calculator
+
 
 Simple calculator written in C++.
